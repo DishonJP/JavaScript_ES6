@@ -1,0 +1,16 @@
+{
+    "details":[
+        {
+            "name":"rice",
+            "price":25
+        },
+        {
+            "name":"pulses",
+            "price":30
+        },
+        {
+            "name":"wheat",
+            "price":46
+        }
+    ]
+}

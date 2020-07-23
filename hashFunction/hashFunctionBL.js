@@ -11,6 +11,7 @@ const hashFunction = (numberArray) => {
     for (const key in hashTable.bucket) {
         console.log(`Element present in index ${key} are ${hashTable.bucket[key]}`);
     }
+    console.log(hashTable.bucket);
 }
 
 module.exports = hashFunction;

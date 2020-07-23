@@ -7,7 +7,7 @@ const userInput = readline.question("Enter the word to search : ");
 try {
     fs.readFile('binarySearchText.txt', { encoding: 'utf8' }, (err, data) => {
         if (err) {
-            throw err
+            throw new Error(err)
         }
         console.log(binary(data.split(','), userInput));
     });

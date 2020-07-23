@@ -4,7 +4,7 @@ const hashFunction = require('./hashFunctionBL');
 try {
     fs.readFile('hashFunctionNumber.txt', { encoding: "utf8" }, (err, data) => {
         if (err) {
-            throw err
+            throw new Error(err)
         }
         hashFunction(data.split(','));
     })
